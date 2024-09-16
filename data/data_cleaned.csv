@@ -1,0 +1,353 @@
+id,equipment_type,equipment_name,maker,type_of_maintenance,frequency,parts_required
+0,Dishwasher,Series 6 SMS6ZCI48E,Bosch,Clean filter,Monthly,None
+1,Dishwasher,WDT750SAKZ,Whirlpool,Descale,Quarterly,Descaling solution
+2,Dishwasher,KDTM404KPS,KitchenAid,Check spray arms,Bi-monthly,None
+3,Dishwasher,G 7316 SCU,Miele,Replace rinse aid,As needed,Rinse aid
+4,Dishwasher,GDT665SSNSS,GE,Clean door seal,Monthly,Soft cloth
+5,Dishwasher,DW80R9950UG,Samsung,Unclog drain,Bi-annually,None
+6,Dishwasher,LDP6810SS,LG,Check water inlet valve,Annually,Replacement valve (if needed)
+7,Dishwasher,MDB8959SKZ,Maytag,Inspect hoses,Annually,Replacement hoses (if needed)
+8,Dishwasher,FDPC4660AS,Frigidaire,Clean interior,Monthly,All-purpose cleaner
+9,Dishwasher,13803,Kenmore,Lubricate hinges,Annually,Food-grade lubricant
+10,Dishwasher,Series 4 SMS46MI01G,Bosch,Wipe control panel,Weekly,Microfiber cloth
+11,Dishwasher,WDF520PADM,Whirlpool,Clean exterior,Monthly,All-purpose cleaner
+12,Dishwasher,KDFE104HPS,KitchenAid,Tighten drain hose,Annually,Screwdriver
+13,Dishwasher,G 5000 SC,Miele,Check water hardness,Bi-annually,Water testing kit
+14,Dishwasher,GDF630PMMES,GE,Replace detergent dispenser,As needed,Replacement dispenser
+15,Dishwasher,DW80R2031US,Samsung,Clean spray arm nozzles,Quarterly,Toothpick or wire
+16,Dishwasher,LDF5545ST,LG,Inspect electrical connections,Annually,None
+17,Dishwasher,MDB7959SFZ,Maytag,Clean silverware basket,Monthly,Dish soap
+18,Dishwasher,FFID2426TS,Frigidaire,Check for leaks,Monthly,None
+19,Dishwasher,14573,Kenmore,Replace water inlet hose,Every 5 years,New inlet hose
+20,Dishwasher,Series 8 SHXM78Z55N,Bosch,Calibrate sensors,Annually,None
+21,Dishwasher,WDT970SAHZ,Whirlpool,Clean drain pump,Bi-annually,None
+22,Dishwasher,KDTM384ESS,KitchenAid,Lubricate door latch,Annually,Silicone lubricant
+23,Dishwasher,G 7100 SCU,Miele,Update software,As available,None
+24,Dishwasher,GDP645SYNFS,GE,Replace leveling legs,As needed,Replacement legs
+25,Dishwasher,DW80R7061UG,Samsung,Clean air gap,Quarterly,Bottle brush
+26,Dishwasher,LDT7808BD,LG,Descale heating element,Annually,Vinegar solution
+27,Dishwasher,MDB7949SDZ,Maytag,Check float switch,Bi-annually,None
+28,Dishwasher,FGIP2468UF,Frigidaire,Tighten rack rollers,Annually,Pliers
+29,Dishwasher,14009,Kenmore,Replace door gasket,Every 2 years,New door gasket
+30,Dishwasher,Series 2 SGE68X55UC,Bosch,Clean cutlery tray,Weekly,Dish soap
+31,Dishwasher,WDTA50SAHZ,Whirlpool,Inspect pump impeller,Annually,Flashlight
+32,Dishwasher,KDPM604KPS,KitchenAid,Clean water inlet screen,Bi-annually,Small brush
+33,Dishwasher,G 5890 SCVi,Miele,Check drain pump,Annually,None
+34,Dishwasher,GDT530PSPSS,GE,Replace spray arm bearings,As needed,Replacement bearings
+35,Dishwasher,DW80R5060US,Samsung,Clean detergent dispenser,Monthly,Soft brush
+36,Dishwasher,LDP6797ST,LG,Inspect heating element,Annually,Multimeter
+37,Dishwasher,MDB4949SKZ,Maytag,Clean wash arms,Quarterly,Vinegar solution
+38,Dishwasher,FFCD2418US,Frigidaire,Check timer,Annually,None
+39,Dishwasher,14702,Kenmore,Lubricate pump motor,Every 2 years,Motor oil
+40,Dishwasher,Series 4 SHS863WD5N,Bosch,Replace water softener,As needed,Salt pellets
+41,Dishwasher,WDF540PADM,Whirlpool,Clean control panel,Weekly,Microfiber cloth
+42,Dishwasher,KDTM354ESS,KitchenAid,Check door balance,Bi-annually,None
+43,Dishwasher,G 4228 SCU,Miele,Inspect spray arm seals,Annually,Replacement seals (if needed)
+44,Dishwasher,GDF510PGMWW,GE,Clean interior light,As needed,Glass cleaner
+45,Dishwasher,DW80J3020US,Samsung,Tighten handle screws,Annually,Screwdriver
+46,Dishwasher,LDP6797BM,LG,Check for unusual noises,Monthly,None
+47,Dishwasher,MDB8959SKB,Maytag,Clean turbidity sensor,Bi-annually,Soft cloth
+48,Dishwasher,FDSH4501AS,Frigidaire,Inspect drain hose,Annually,Flashlight
+49,Dishwasher,13479,Kenmore,Replace soap dispenser,As needed,Replacement dispenser
+50,Dishwasher,Series 6 SHEM63W55N,Bosch,Check water temperature,Quarterly,Thermometer
+51,Dishwasher,WDT730PAHZ,Whirlpool,Clean interior corners,Monthly,Old toothbrush
+52,Dishwasher,KDTE334GPS,KitchenAid,Inspect door springs,Annually,None
+53,Dishwasher,G 6660 SCVi,Miele,Replace water inlet valve,As needed,New inlet valve
+54,Dishwasher,GDF645SSNSS,GE,Clean filter housing,Monthly,Soft brush
+55,Dishwasher,DW80R5061US,Samsung,Check for error codes,Monthly,None
+56,Dishwasher,LDP6810BD,LG,Inspect drain pump filter,Quarterly,None
+57,Dishwasher,MDB7959SKZ,Maytag,Clean door edges,Monthly,Damp cloth
+58,Dishwasher,FFID2426TD,Frigidaire,Check water pressure,Bi-annually,Pressure gauge
+59,Dishwasher,14573,Kenmore,Inspect control board,Annually,None
+60,Dishwasher,Series 8 SHPM88Z75N,Bosch,Replace spray arms,As needed,New spray arms
+61,Dishwasher,WDT975SAHV,Whirlpool,Clean silverware basket,Weekly,Dish soap
+62,Dishwasher,KDTM404ESS,KitchenAid,Check float switch,Bi-annually,None
+63,Dishwasher,G 7366 SCVi,Miele,Inspect door latch,Annually,None
+64,Dishwasher,GDP665SYNFS,GE,Clean air gap,Quarterly,Bottle brush
+65,Dishwasher,DW80R9950UT,Samsung,Replace rinse aid dispenser,As needed,New dispenser
+66,Dishwasher,LDT7808SS,LG,Check for leaks,Monthly,None
+67,Dishwasher,MDB8959SKW,Maytag,Clean exterior,Weekly,All-purpose cleaner
+68,Dishwasher,FGID2476SF,Frigidaire,Inspect drain hose,Annually,None
+69,Dishwasher,14469,Kenmore,Replace detergent dispenser,As needed,New dispenser
+70,Dishwasher,Series 6 SHP865ZP5N,Bosch,Check water inlet temperature,Quarterly,Thermometer
+71,Dishwasher,WDT730PAHZ,Whirlpool,Clean control panel,Weekly,Microfiber cloth
+72,Dishwasher,KDTM354DSS,KitchenAid,Inspect spray arm bearings,Annually,None
+73,Dishwasher,G 5890 SCVi,Miele,Replace water softener salt,As needed,Salt pellets
+74,Dishwasher,GDT665SGNWW,GE,Clean interior light,As needed,Glass cleaner
+75,Dishwasher,DW80R7061UG,Samsung,Tighten handle screws,Annually,Screwdriver
+76,Dishwasher,LDP6797ST,LG,Check for unusual noises,Monthly,None
+77,Dishwasher,MDB7959SHZ,Maytag,Clean turbidity sensor,Bi-annually,Soft cloth
+78,Dishwasher,FFCD2413US,Frigidaire,Inspect drain pump,Annually,Flashlight
+79,Dishwasher,13803,Kenmore,Lubricate door hinges,Annually,Food-grade lubricant
+80,Dishwasher,Series 4 SHXM4AY55N,Bosch,Check water hardness,Bi-annually,Water testing kit
+81,Dishwasher,KDFE104HBS,KitchenAid,Tighten drain hose,Annually,Screwdriver
+82,Dishwasher,G 4228 SCU,Miele,Check rinse aid level,Weekly,None
+83,Dishwasher,GDF530PGMWW,GE,Replace detergent dispenser,As needed,Replacement dispenser
+84,Dishwasher,DW80J3020US,Samsung,Clean spray arm nozzles,Quarterly,Toothpick or wire
+85,Dishwasher,LDF5545BD,LG,Inspect electrical connections,Annually,None
+86,Dishwasher,MDB4949SKZ,Maytag,Clean silverware basket,Monthly,Dish soap
+87,Dishwasher,14009,Kenmore,Replace water inlet hose,Every 5 years,New inlet hose
+88,Dishwasher,Series 6 SHX865ZP5N,Bosch,Calibrate sensors,Annually,None
+89,Dishwasher,WDT970SAHV,Whirlpool,Clean drain pump,Bi-annually,None
+90,Dishwasher,DW80R7061US,Samsung,Clean air gap,Quarterly,Bottle brush
+91,Dishwasher,14702,Kenmore,Replace door gasket,Every 2 years,New door gasket
+92,Dishwasher,13479,Kenmore,Lubricate pump motor,Every 2 years,Motor oil
+93,Dishwasher,14573,Kenmore,Replace soap dispenser,As needed,Replacement dispenser
+94,Dishwasher,14469,Kenmore,Inspect control board,Annually,None
+95,Dishwasher,13803,Kenmore,Replace detergent dispenser,As needed,New dispenser
+96,Dishwasher,14009,Kenmore,Lubricate door hinges,Annually,Food-grade lubricant
+97,Dishwasher,14702,Kenmore,Replace water inlet hose,Every 5 years,New inlet hose
+98,Dishwasher,Series 6 SHX865ZN5N,Bosch,Clean filter,Monthly,None
+99,Dishwasher,WDT975SAHZ,Whirlpool,Descale,Quarterly,Descaling solution
+100,Dishwasher,KDTM404KBS,KitchenAid,Check spray arms,Bi-monthly,None
+101,Dishwasher,G 7566 SCVi,Miele,Replace rinse aid,As needed,Rinse aid
+102,Dishwasher,LDP7808BD,LG,Check water inlet valve,Annually,Replacement valve (if needed)
+103,Dishwasher,MDB9959SKZ,Maytag,Inspect hoses,Annually,Replacement hoses (if needed)
+104,Dishwasher,FPID2498SF,Frigidaire,Clean interior,Monthly,All-purpose cleaner
+105,Dishwasher,14573,Kenmore,Lubricate hinges,Annually,Food-grade lubricant
+106,Dishwasher,Series 4 SGV4HCX40N,Bosch,Wipe control panel,Weekly,Microfiber cloth
+107,Dishwasher,WDF518SAHM,Whirlpool,Clean exterior,Monthly,All-purpose cleaner
+108,Dishwasher,G 5000 SCI,Miele,Check water hardness,Bi-annually,Water testing kit
+109,Dishwasher,GDP630PYRFS,GE,Replace detergent dispenser,As needed,Replacement dispenser
+110,Dishwasher,LDT7808SS,LG,Inspect electrical connections,Annually,None
+111,Dishwasher,MDB7959SKZ,Maytag,Clean silverware basket,Monthly,Dish soap
+112,Dishwasher,FFID2426TD,Frigidaire,Check for leaks,Monthly,None
+113,Dishwasher,13273,Kenmore,Replace water inlet hose,Every 5 years,New inlet hose
+114,Dishwasher,Series 8 SHPM88Z75N,Bosch,Calibrate sensors,Annually,None
+115,Dishwasher,G 7100 SC,Miele,Update software,As available,None
+116,Dishwasher,GDF645SMNES,GE,Replace leveling legs,As needed,Replacement legs
+117,Dishwasher,LDP6810SS,LG,Descale heating element,Annually,Vinegar solution
+118,Dishwasher,MDB8959SFZ,Maytag,Check float switch,Bi-annually,None
+119,Dishwasher,Series 2 SGE53X55UC,Bosch,Clean cutlery tray,Weekly,Dish soap
+120,Dishwasher,WDTA50SAKZ,Whirlpool,Inspect pump impeller,Annually,Flashlight
+121,Dishwasher,KDPM604KBS,KitchenAid,Clean water inlet screen,Bi-annually,Small brush
+122,Dishwasher,GDT530PSMSS,GE,Replace spray arm bearings,As needed,Replacement bearings
+123,Dishwasher,DW80R5061US,Samsung,Clean detergent dispenser,Monthly,Soft brush
+124,Dishwasher,LDF5545ST,LG,Inspect heating element,Annually,Multimeter
+125,Dishwasher,MDB4949SDZ,Maytag,Clean wash arms,Quarterly,Vinegar solution
+126,Dishwasher,13092,Kenmore,Lubricate pump motor,Every 2 years,Motor oil
+127,Dishwasher,WDF330PAHW,Whirlpool,Clean control panel,Weekly,Microfiber cloth
+128,Dishwasher,GDF510PSMSS,GE,Clean interior light,As needed,Glass cleaner
+129,Dishwasher,DW80J7550US,Samsung,Tighten handle screws,Annually,Screwdriver
+130,Dishwasher,MDB7959SKB,Maytag,Clean turbidity sensor,Bi-annually,Soft cloth
+131,Dishwasher,14699,Kenmore,Replace soap dispenser,As needed,Replacement dispenser
+132,Dishwasher,Series 6 SHP865ZP5N,Bosch,Check water temperature,Quarterly,Thermometer
+133,Dishwasher,KDTE334GBS,KitchenAid,Inspect door springs,Annually,None
+134,Dishwasher,GDF645SGNWW,GE,Clean filter housing,Monthly,Soft brush
+135,Dishwasher,DW80R5060US,Samsung,Check for error codes,Monthly,None
+136,Dishwasher,MDB7959SHZ,Maytag,Clean door edges,Monthly,Damp cloth
+137,Dishwasher,FFID2426TS,Frigidaire,Check water pressure,Bi-annually,Pressure gauge
+138,Dishwasher,14479,Kenmore,Inspect control board,Annually,None
+139,Dishwasher,Series 8 SHPM78Z55N,Bosch,Replace spray arms,As needed,New spray arms
+140,Dishwasher,WDT750SAKZ,Whirlpool,Clean silverware basket,Weekly,Dish soap
+141,Dishwasher,LDT7808ST,LG,Check for leaks,Monthly,None
+142,Dishwasher,WDT970SAHZ,Whirlpool,Clean control panel,Weekly,Microfiber cloth
+143,Dishwasher,14573,Kenmore,Lubricate door hinges,Annually,Food-grade lubricant
+144,Dishwasher,Series 6 SHX865ZN5N,Bosch,Calibrate sensors,Annually,None
+145,Dishwasher,WDT975SAHZ,Whirlpool,Clean drain pump,Bi-annually,None
+146,Dishwasher,KDTM404KBS,KitchenAid,Lubricate door latch,Annually,Silicone lubricant
+147,Dishwasher,G 7566 SCVi,Miele,Update software,As available,None
+148,Dishwasher,GDT665SSNSS,GE,Replace leveling legs,As needed,Replacement legs
+149,Dishwasher,DW80R9950UG,Samsung,Clean air gap,Quarterly,Bottle brush
+150,Dishwasher,LDP7808BD,LG,Descale heating element,Annually,Vinegar solution
+151,Dishwasher,MDB9959SKZ,Maytag,Check float switch,Bi-annually,None
+152,Dishwasher,FPID2498SF,Frigidaire,Tighten rack rollers,Annually,Pliers
+153,Dishwasher,14573,Kenmore,Replace door gasket,Every 2 years,New door gasket
+154,Dishwasher,SHPM65Z55N,Bosch,Inspect telescopic rails,Annually,None
+155,Dishwasher,WDTA80SAK,Whirlpool,Clean condenser coils,Bi-annually,Coil brush
+156,Dishwasher,KDTM504EPA,KitchenAid,Replace water distribution arm,As needed,New distribution arm
+157,Dishwasher,G 7960 SCVi,Miele,Calibrate soil sensors,Annually,None
+158,Dishwasher,PDT785SYNFS,GE,Clean sump area,Quarterly,Soft brush
+159,Dishwasher,DW80R7070UG,Samsung,Inspect and clean sump filter,Monthly,None
+160,Dishwasher,LDT7808BM,LG,Replace circulation pump,As needed,New circulation pump
+161,Dishwasher,MDB9979SKZ,Maytag,Clean and lubricate rack adjuster,Bi-annually,Food-grade lubricant
+162,Dishwasher,FGIP2468UF,Frigidaire,Replace touchpad membrane,As needed,New membrane switch
+163,Dishwasher,17489,Kenmore,Inspect and clean ventilation fan,Annually,Compressed air
+164,Dishwasher,SHE89PW55N,Bosch,Replace aquastop hose,Every 5 years,New aquastop hose
+165,Dishwasher,WDF560SAFM,Whirlpool,Clean and sanitize cutlery tray,Monthly,Sanitizing solution
+166,Dishwasher,KDTM704KPS,KitchenAid,Inspect and clean flood switch,Annually,None
+167,Dishwasher,G 5690 SCVi,Miele,Replace door counterbalance spring,As needed,New counterbalance spring
+168,Dishwasher,GDT696SSNSS,GE,Clean and descale heating element,Annually,Descaling solution
+169,Dishwasher,DW80R9350UG,Samsung,Inspect and clean water reflector,Quarterly,Soft cloth
+170,Dishwasher,LDP7808SS,LG,Replace door seal,Every 3-5 years,New door seal
+171,Dishwasher,MDB8959SFZ,Maytag,Inspect and clean overflow float switch,Bi-annually,None
+172,Dishwasher,FFID2426TD,Frigidaire,Replace dispenser actuator,As needed,New actuator
+173,Dishwasher,13033,Kenmore,Clean and lubricate door latch assembly,Annually,Silicone lubricant
+174,Dishwasher,SMV88TX02A,Bosch,Inspect and clean turbidity sensor,Quarterly,Soft cloth
+175,Dishwasher,WDT750SAKW,Whirlpool,Replace drain pump,As needed,New drain pump
+176,Dishwasher,KDTM354DSS,KitchenAid,Clean and descale spray arms,Bi-annually,Descaling solution
+177,Dishwasher,G 7310 SC,Miele,Inspect and clean salt container,Monthly,None
+178,Dishwasher,GDP665SYNFS,GE,Replace circulation pump capacitor,As needed,New capacitor
+179,Dishwasher,DW80K7050UG,Samsung,Clean and sanitize door gasket,Monthly,Sanitizing solution
+180,Dishwasher,LDF5545SS,LG,Inspect and clean water inlet valve screen,Bi-annually,Small brush
+181,Dishwasher,MDB7959SKZ,Maytag,Replace upper dishrack wheels,As needed,New dishrack wheels
+182,Dishwasher,FGID2466QF,Frigidaire,Clean and descale float switch,Annually,Descaling solution
+183,Dishwasher,14573,Kenmore,Inspect and clean door switch,Bi-annually,Contact cleaner
+184,Dishwasher,SHP865ZD5N,Bosch,Replace circulation pump seal,As needed,New pump seal
+185,Dishwasher,WDF518SAHM,Whirlpool,Clean and lubricate upper rack stoppers,Quarterly,Food-grade lubricant
+186,Dishwasher,KDPM604KPS,KitchenAid,Inspect and clean optical water indicator,Monthly,Soft cloth
+187,Dishwasher,G 4228 SCU,Miele,Replace spray arm bearing,As needed,New spray arm bearing
+188,Dishwasher,GDF630PMMES,GE,Clean and descale detergent dispenser,Quarterly,Descaling solution
+189,Dishwasher,DW80R5061US,Samsung,Inspect and clean door hinges,Bi-annually,None
+190,Dishwasher,LDP6810SS,LG,Replace lower spray arm,As needed,New lower spray arm
+191,Dishwasher,MDB4949SKZ,Maytag,Clean and lubricate rack slides,Quarterly,Food-grade lubricant
+192,Dishwasher,FFCD2418US,Frigidaire,Inspect and clean water diverter,Annually,None
+193,Dishwasher,13479,Kenmore,Replace timer,As needed,New timer
+194,Dishwasher,SHS863WD5N,Bosch,Clean and descale water softener,Bi-annually,Descaling solution
+195,Dishwasher,WDT730PAHZ,Whirlpool,Inspect and clean door balance link kit,Annually,None
+196,Dishwasher,KDTE334GBS,KitchenAid,Replace upper spray arm,As needed,New upper spray arm
+197,Dishwasher,G 5890 SCVi,Miele,Clean and sanitize silverware basket,Weekly,Sanitizing solution
+198,Dishwasher,GDT665SSNSS,GE,Inspect and clean drain hose air gap,Quarterly,Pipe cleaner
+199,Dishwasher,DW80R2031US,Samsung,Replace rinse aid cap,As needed,New rinse aid cap
+200,Dishwasher,LDT7808BD,LG,Clean and descale water inlet assembly,Annually,Descaling solution
+201,Dishwasher,MDB7959SHZ,Maytag,Inspect and clean lower rack rollers,Bi-annually,None
+202,Dishwasher,FDSH4501AS,Frigidaire,Replace control board,As needed,New control board
+203,Dishwasher,14702,Kenmore,Clean and lubricate door springs,Quarterly,Food-grade lubricant
+204,Dishwasher,SGV68U53UC,Bosch,Inspect and clean power cord,Annually,None
+205,Dishwasher,WDF520PADM,Whirlpool,Replace upper rack adjuster,As needed,New rack adjuster
+206,Dishwasher,KDTM404ESS,KitchenAid,Clean and sanitize utensil basket,Weekly,Sanitizing solution
+207,Dishwasher,G 7566 SCVi,Miele,Inspect and clean drain pump impeller,Bi-annually,None
+208,Dishwasher,PDT775SYNFS,GE,Replace door cable,As needed,New door cable
+209,Dishwasher,DW80R9950UT,Samsung,Clean and descale heating element housing,Annually,Descaling solution
+210,Dishwasher,LDP6797ST,LG,Inspect and clean detergent dispenser spring,Quarterly,None
+211,Dishwasher,MDB8959SKB,Maytag,Replace lower dishrack wheels,As needed,New dishrack wheels
+212,Dishwasher,FGIP2468UF,Frigidaire,Clean and lubricate door hinge pins,Bi-annually,Food-grade lubricant
+213,Dishwasher,13273,Kenmore,Inspect and clean fill funnel,Monthly,Soft brush
+214,Dishwasher,SMV88TX36E,Bosch,Replace water softener resin,Every 5-7 years,Water softener resin
+215,Dishwasher,WDT970SAHV,Whirlpool,Clean and descale sump,Quarterly,Descaling solution
+216,Dishwasher,KDFE104HBS,KitchenAid,Inspect and clean vent fan motor,Annually,Compressed air
+217,Dishwasher,G 5000 SCI,Miele,Replace door shock absorber,As needed,New shock absorber
+218,Dishwasher,GDF645SMNES,GE,Clean and sanitize interior walls,Monthly,Sanitizing solution
+219,Dishwasher,DW80K5050US,Samsung,Inspect and clean spray arm nozzles,Bi-annually,Toothpick
+220,Dishwasher,LDF5545ST,LG,Replace water inlet valve,As needed,New inlet valve
+221,Dishwasher,MDB7959SKZ,Maytag,Clean and descale wash pump,Annually,Descaling solution
+222,Dishwasher,FFID2426TS,Frigidaire,Inspect and clean door lock assembly,Bi-annually,None
+223,Dishwasher,14469,Kenmore,Replace thermal fuse,As needed,New thermal fuse
+224,Dishwasher,SHP865ZP5N,Bosch,Clean and lubricate pump motor bearings,Annually,Motor bearing grease
+225,Dishwasher,WDT750SAHZ,Whirlpool,Inspect and clean float switch assembly,Quarterly,None
+226,Dishwasher,KDTM384ESS,KitchenAid,Replace dispenser rinse aid indicator,As needed,New rinse aid indicator
+227,Dishwasher,G 7100 SC,Miele,Clean and sanitize detergent cup,Weekly,Sanitizing solution
+228,Dishwasher,GDT530PSMSS,GE,Inspect and clean drain solenoid,Bi-annually,None
+229,Dishwasher,DW80R7061UG,Samsung,Replace door balance spring,As needed,New balance spring
+230,Dishwasher,LDP6810BD,LG,Clean and descale water distribution tube,Quarterly,Descaling solution
+231,Dishwasher,MDB4949SDZ,Maytag,Inspect and clean tub seal,Annually,None
+232,Dishwasher,FGID2476SF,Frigidaire,Replace main control board,As needed,New control board
+233,Dishwasher,14573,Kenmore,Clean and lubricate door catch,Bi-annually,Food-grade lubricant
+234,Dishwasher,SHS5AV55UC,Bosch,Inspect and clean dispenser wax motor,Annually,None
+235,Dishwasher,WDTA50SAKZ,Whirlpool,Replace spray arm mounting gasket,As needed,New mounting gasket
+236,Dishwasher,KDPM604KBS,KitchenAid,Clean and sanitize air gap,Monthly,Sanitizing solution
+237,Dishwasher,G 4228 SCU,Miele,Inspect and clean drain valve,Bi-annually,None
+238,Dishwasher,GDF510PSMSS,GE,Replace door latch assembly,As needed,New latch assembly
+239,Dishwasher,DW80J7550US,Samsung,Clean and descale water softener assembly,Quarterly,Descaling solution
+240,Dishwasher,LDP6797BM,LG,Inspect and clean pump motor capacitor,Annually,None
+241,Dishwasher,MDB8959SKW,Maytag,Replace upper spray arm mount,As needed,New spray arm mount
+242,Dishwasher,FPID2498SF,Frigidaire,Clean and lubricate rack track stoppers,Bi-annually,Food-grade lubricant
+243,Dishwasher,13092,Kenmore,Inspect and clean heater relay,Annually,Contact cleaner
+244,Dishwasher,SGX68U55UC,Bosch,Replace door balance cable system,As needed,New cable system
+245,Dishwasher,WDF330PAHW,Whirlpool,Clean and descale detergent dispenser assembly,Quarterly,Descaling solution
+246,Dishwasher,KDTM354DSS,KitchenAid,Inspect and clean overflow pressure switch,Bi-annually,None
+247,Dishwasher,G 6660 SCVi,Miele,Replace drain pump motor,As needed,New drain pump motor
+248,Dishwasher,GDP630PYRFS,GE,Clean and sanitize silverware spray jets,Monthly,Sanitizing solution
+249,Dishwasher,DW80R5060US,Samsung,Inspect and clean sump gasket,Annually,None
+250,Dishwasher,LDT7808SS,LG,Replace dispenser actuator lever,As needed,New actuator lever
+251,Dishwasher,MDB7959SHZ,Maytag,Clean and descale water inlet tube,Bi-annually,Descaling solution
+252,Dishwasher,FFCD2413US,Frigidaire,Inspect and clean door vent,Quarterly,Soft brush
+253,Dishwasher,14699,Kenmore,Replace circulation pump motor,As needed,New pump motor
+254,Refregerator,RF23A9771SR,Samsung,Clean condenser coils,Bi-annually,Coil brush
+255,Refregerator,LRMVS3006S,LG,Replace water filter,Every 6 months,LG LT1000P water filter
+256,Refregerator,WRF555SDHV,Whirlpool,Clean drain pan,Quarterly,All-purpose cleaner
+257,Refregerator,GRSS2652AF,GE,Check door seals,Annually,None
+258,Refregerator,FFHD2250TS,Frigidaire,Defrost freezer (if manual),As needed,None
+259,Refregerator,KRFC704FBS,KitchenAid,Clean ice maker,Monthly,Vinegar solution
+260,Refregerator,MFI2570FEZ,Maytag,Replace air filter,Every 6 months,Maytag AIR1 air filter
+261,Refregerator,B36CD50SNS,Bosch,Check and clean drain hole,Quarterly,Pipe cleaner
+262,Refregerator,FGHD2368TD,Frigidaire,Clean exterior,Weekly,Mild detergent
+263,Refregerator,LFXS26973S,LG,Calibrate temperature controls,Annually,None
+264,Refregerator,RF28R7351SR,Samsung,Clean interior,Monthly,Baking soda solution
+265,Refregerator,WRS325SDHZ,Whirlpool,Check leveling,Annually,Level tool
+266,Refregerator,GNE27JYMFS,GE,Replace water inlet valve,As needed,GE WR57X10032 water inlet valve
+267,Refregerator,FFBN1721TV,Frigidaire,Vacuum compressor coils,Bi-annually,Vacuum with brush attachment
+268,Refregerator,KRMF706ESS,KitchenAid,Check ice maker fill tube,Quarterly,None
+269,Refregerator,MFI2269FRZ,Maytag,Clean door gaskets,Monthly,Mild soap solution
+270,Refregerator,B36CL80ENS,Bosch,Check defrost drain,Bi-annually,None
+271,Refregerator,FGHG2368TF,Frigidaire,Replace light bulbs,As needed,Appliance bulb
+272,Refregerator,LRFVS3006S,LG,Clean water dispenser,Weekly,Disinfectant wipe
+273,Refregerator,RF23M8070SR,Samsung,Check evaporator fan,Annually,None
+274,Refregerator,WRF767SDHZ,Whirlpool,Clean condenser fan,Bi-annually,Soft brush
+275,Refregerator,PYE22KYNFS,GE,Inspect water lines,Quarterly,None
+276,Refregerator,FFHB2750TS,Frigidaire,Clean ice bin,Monthly,Mild detergent
+277,Refregerator,KRFC300ESS,KitchenAid,Check temperature sensors,Annually,None
+278,Refregerator,MFI2570FEM,Maytag,Replace door cam,As needed,Maytag 12001822 door cam
+279,Refregerator,B36CT80SNS,Bosch,Clean freezer vents,Quarterly,Vacuum with brush attachment
+280,Refregerator,FGHD2368TF,Frigidaire,Lubricate door hinges,Annually,Food-grade lubricant
+281,Refregerator,LRMVC2306S,LG,Check compressor,Bi-annually,None
+282,Refregerator,RF28R6301SR,Samsung,Clean water filter housing,Quarterly,Soft brush
+283,Refregerator,WRS571CIHZ,Whirlpool,Inspect defrost heater,Annually,Multimeter
+284,Refregerator,GFE28GYNFS,GE,Clean refrigerator coils,Bi-annually,Coil brush
+285,Refregerator,FFHB2750TD,Frigidaire,Check door alignment,Quarterly,None
+286,Refregerator,KBSD608ESS,KitchenAid,Replace ice maker filter,Annually,KitchenAid F2WC9I1 ice maker filter
+287,Refregerator,MFI2269DRZ,Maytag,Clean air vents,Monthly,Compressed air
+288,Refregerator,B36CL81ENG,Bosch,Inspect start relay,Bi-annually,None
+289,Refregerator,FGHB2868TF,Frigidaire,Clean drip tray,Monthly,Mild soap solution
+290,Refregerator,LRFDC2406S,LG,Check door switches,Annually,None
+291,Refregerator,RF23A9771SG,Samsung,Sanitize ice maker,Quarterly,Sanitizing solution
+292,Refregerator,WRB322DMBM,Whirlpool,Inspect evaporator coils,Annually,Flashlight
+293,Refregerator,PVD28BYNFS,GE,Clean condenser fan blade,Bi-annually,Soft cloth
+294,Refregerator,FFSS2615TS,Frigidaire,Check thermostat,Annually,None
+295,Refregerator,KRMF706ESS,KitchenAid,Clean water tank,Monthly,Vinegar solution
+296,Refregerator,MFT2772HEZ,Maytag,Inspect door gasket,Quarterly,None
+297,Refregerator,B36CT80SNB,Bosch,Check compressor capacitor,Annually,Multimeter
+298,Refregerator,PRMC2285AF,Frigidaire,Clean ice chute,Monthly,Sanitizing wipe
+299,Refregerator,LRFVS3006D,LG,Inspect freezer fan motor,Bi-annually,None
+300,Refregerator,RF28T5001SR,Samsung,Clean water dispenser nozzle,Weekly,Soft brush
+301,Refregerator,WRS588FIHZ,Whirlpool,Check defrost timer,Annually,Multimeter
+302,Refregerator,GNE25JMKES,GE,Clean freezer drain tube,Quarterly,Pipe cleaner
+303,Refregerator,FFHB2750TD,Frigidaire,Inspect ice maker arm,Monthly,None
+304,Refregerator,KRFF507HPS,KitchenAid,Replace water filter housing seal,As needed,KitchenAid W10916435 seal
+305,Refregerator,MFI2269FRZ,Maytag,Clean condenser coils,Bi-annually,Coil brush
+306,Refregerator,B36CL80SNS,Bosch,Check door seal magnetism,Quarterly,Metal paper clip
+307,Refregerator,FGHB2868TD,Frigidaire,Inspect water inlet valve,Annually,None
+308,Refregerator,LRFDC2406D,LG,Clean ice crusher blades,Bi-annually,Soft brush
+309,Refregerator,RF28R7351SG,Samsung,Check defrost thermostat,Annually,Multimeter
+310,Refregerator,WRS325SDHZ,Whirlpool,Clean interior light housing,Quarterly,Soft cloth
+311,Refregerator,PFE28KYNFS,GE,Inspect start capacitor,Bi-annually,Multimeter
+312,Refregerator,FFSS2615TD,Frigidaire,Clean air filter,Monthly,Vacuum with brush attachment
+313,Refregerator,KBSD618ESS,KitchenAid,Check ice maker water level,Quarterly,None
+314,Refregerator,MFI2570FEZ,Maytag,Inspect evaporator drain pan,Bi-annually,Flashlight
+315,Refregerator,B36IDE80SN,Bosch,Clean door seal,Monthly,Mild soap solution
+316,Refregerator,PRMC2285AF,Frigidaire,Check refrigerant levels,Annually,Refrigerant gauge
+317,Refregerator,LTNC11121V,LG,Clean exterior handles,Weekly,Disinfectant wipe
+318,Refregerator,RF23M8090SG,Samsung,Inspect defrost drain heater,Annually,Multimeter
+319,Refregerator,WRT518SZFM,Whirlpool,Clean ice maker tray,Monthly,Mild detergent
+320,Refregerator,GDE21EGKBB,GE,Check temperature control board,Bi-annually,None
+321,Refregerator,FFRU17B2QW,Frigidaire,Inspect condenser fan motor,Annually,None
+322,Refregerator,KRSF705HPS,KitchenAid,Clean water dispenser drip tray,Weekly,Mild soap solution
+323,Refregerator,MFF2558FEZ,Maytag,Check door closure,Quarterly,None
+324,Refregerator,B36CL80ENB,Bosch,Inspect main control board,Annually,None
+325,Refregerator,FGRU19F6QF,Frigidaire,Clean ice maker water inlet tube,Bi-annually,Pipe cleaner
+326,Refregerator,LTCS24223S,LG,Check freezer defrost cycle,Quarterly,None
+327,Refregerator,RF28T5001SG,Samsung,Inspect ice maker ejector arm,Monthly,None
+328,Refregerator,WRS325SDHB,Whirlpool,Clean refrigerator shelves,Weekly,Mild detergent
+329,Refregerator,GTS22KYNRFS,GE,Check door stop,Bi-annually,None
+330,Refregerator,FFSS2615TS,Frigidaire,Inspect compressor relay,Annually,Multimeter
+331,Refregerator,KRFC704FSS,KitchenAid,Clean ice crusher chute,Monthly,Sanitizing wipe
+332,Refregerator,MFI2269DRZ,Maytag,Check defrost drain,Quarterly,Pipe cleaner
+333,Refregerator,B36CD50SNB,Bosch,Inspect fan blade,Bi-annually,None
+334,Refregerator,FGHB2868TF,Frigidaire,Clean water filter bypass plug,Quarterly,Soft brush
+335,Refregerator,LRFNS2503S,LG,Check ice maker fill cup,Monthly,None
+336,Refregerator,RF28R7351SR,Samsung,Inspect auger motor,Annually,None
+337,Refregerator,WRT311FZDW,Whirlpool,Clean freezer shelves,Monthly,Mild detergent
+338,Refregerator,GDE21EGKWW,GE,Check door cam,Quarterly,None
+339,Refregerator,FFHT1425VV,Frigidaire,Inspect temperature sensor,Bi-annually,Multimeter
+340,Refregerator,KBSN608ESS,KitchenAid,Clean air filter housing,Monthly,Soft brush
+341,Refregerator,MRT118FFFH,Maytag,Check defrost heater,Annually,Multimeter
+342,Refregerator,B36CL81ENG,Bosch,Inspect water dispenser valve,Bi-annually,None
+343,Refregerator,FGSC2335TF,Frigidaire,Clean ice maker ejector blades,Quarterly,Soft cloth
+344,Refregerator,LRFXC2416S,LG,Check compressor start relay,Annually,Multimeter
+345,Refregerator,RF23A9771SR,Samsung,Clean door bins,Weekly,Mild detergent
+346,Refregerator,WRF535SWHZ,Whirlpool,Inspect ice level control board,Bi-annually,None
+347,Refregerator,GNE25JSKSS,GE,Clean water tank,Monthly,Vinegar solution
+348,Refregerator,FFSS2615TD,Frigidaire,Check freezer door seal,Quarterly,None
+349,Refregerator,KRFC300EBS,KitchenAid,Inspect icemaker thermostat,Annually,Multimeter
+350,Refregerator,MFI2269FRZ,Maytag,Clean condenser fan blade,Bi-annually,Soft cloth
+351,Refregerator,B36CT81SNS,Bosch,Check defrost limit switch,Annually,Multimeter
