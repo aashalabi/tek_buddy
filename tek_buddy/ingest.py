@@ -1,11 +1,17 @@
 import numpy as np
 import pandas as pd
 import minsearch
+import os
 
-DATA_PATH = r'..\data\data_cleaned.csv'
+from dotenv import load_dotenv
+
+load_dotenv()  # Load .env only in development
+
+DATA_PATH = os.getenv("DATA_PATH")
+print(f"DATA_PATH in Python: {DATA_PATH}")
 
 def load_index(data_path=DATA_PATH):
-    df = pd.read_csv('..\data\data_cleaned.csv')
+    df = pd.read_csv(data_path)
     df = df.replace({np.nan: 'None'})
     df['id'] = df['id'].astype(str)
     documents = df.to_dict(orient='records')

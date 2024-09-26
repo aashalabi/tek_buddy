@@ -4,18 +4,20 @@ import json
 from time import time
 from dotenv import load_dotenv
 import os
+import openai 
 
 from pathlib import Path
-env_path = Path('../.env')
 
+#env_path = Path('../.env')
 # Load the .env file
-load_dotenv(dotenv_path=env_path)
-
+#load_dotenv(dotenv_path=env_path)
+load_dotenv() 
 # Get the API key
-openai_api_key = os.getenv("OPENAI_API_KEY")
-os.environ['OPENAI_API_KEY'] = openai_api_key
+#openai_api_key = os.getenv("OPENAI_API_KEY")
+#os.environ['OPENAI_API_KEY'] = openai_api_key
 
-client = OpenAI()
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 index = ingest.load_index()
 
 boost = {
@@ -67,13 +69,93 @@ def create_prompt(knowledge_results, question):
     return prompt
 
 def llm(prompt, client, model='gpt-3.5-turbo'):
-    response = client.chat.completions.create(
+    start_time = time()
+    #response = client.chat.completions.create(
+    response = openai.chat.completions.create(
         model=model,    
         messages=[{"role": "user", "content": prompt}]
     )
-    return (response.choices[0].message.content)
+    answer = response.choices[0].message.content
 
-def rag(query, client=client):
+    token_stats = {
+        "prompt_tokens": response.usage.prompt_tokens,
+        "completion_tokens": response.usage.completion_tokens,
+        "total_tokens": response.usage.total_tokens,
+    }
+    end_time = time()
+    response_time = end_time - start_time
+    
+    return answer, token_stats, response_time
+
+def rag(query, client=client, model_choice='openai/gpt-3.5-turbo'):
+    model = model_choice.split('/')[-1]
+    print('model')
+    print(model)
+    print('client', type(client))
+
     knowledge_results = search(query)
     prompt = create_prompt(knowledge_results, query)
-    return llm(prompt, client)
+    return llm(prompt=prompt, client=client, model=model)
+
+def evaluate_relevance(question, answer):
+    prompt_template = """
+    You are an expert evaluator for a Retrieval-Augmented Generation (RAG) system.
+    Your task is to analyze the relevance of the generated answer to the given question.
+    Based on the relevance of the generated answer, you will classify it
+    as "NON_RELEVANT", "PARTLY_RELEVANT", or "RELEVANT".
+
+    Here is the data for evaluation:
+
+    Question: {question}
+    Generated Answer: {answer}
+
+    Please analyze the content and context of the generated answer in relation to the question
+    and provide your evaluation in parsable JSON without using code blocks:
+
+    {{
+      "Relevance": "NON_RELEVANT" | "PARTLY_RELEVANT" | "RELEVANT",
+      "Explanation": "[Provide a brief explanation for your evaluation]"
+    }}
+    """.strip()
+
+    prompt = prompt_template.format(question=question, answer=answer)
+    evaluation, tokens, _ = llm(prompt, 'openai/gpt-3.5-turbo')
+    
+    try:
+        json_eval = json.loads(evaluation)
+        return json_eval['Relevance'], json_eval['Explanation'], tokens
+    except json.JSONDecodeError:
+        return "UNKNOWN", "Failed to parse evaluation", tokens
+
+
+def calculate_openai_cost(model_choice, tokens):
+    openai_cost = 0
+
+    if model_choice == 'openai/gpt-3.5-turbo':
+        openai_cost = (tokens['prompt_tokens'] * 0.0015 + tokens['completion_tokens'] * 0.002) / 1000
+    elif model_choice in ['openai/gpt-4o', 'openai/gpt-4o-mini']:
+        openai_cost = (tokens['prompt_tokens'] * 0.03 + tokens['completion_tokens'] * 0.06) / 1000
+
+    return openai_cost
+def get_answer(query, model_choice='openai/gpt-3.5-turbo'):
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    answer, tokens, response_time = rag(query, client=client, model_choice= model_choice)
+    
+    relevance, explanation, eval_tokens = evaluate_relevance(query, answer)
+
+    openai_cost = calculate_openai_cost(model_choice, tokens)
+ 
+    return {
+        'answer': answer,
+        'response_time': response_time,
+        'relevance': relevance,
+        'relevance_explanation': explanation,
+        'model_used': model_choice,
+        'prompt_tokens': tokens['prompt_tokens'],
+        'completion_tokens': tokens['completion_tokens'],
+        'total_tokens': tokens['total_tokens'],
+        'eval_prompt_tokens': eval_tokens['prompt_tokens'],
+        'eval_completion_tokens': eval_tokens['completion_tokens'],
+        'eval_total_tokens': eval_tokens['total_tokens'],
+        'openai_cost': openai_cost
+    }

@@ -3,24 +3,35 @@ import psycopg2
 from psycopg2.extras import DictCursor
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
+from dotenv import load_dotenv
+load_dotenv() 
 
-RUN_TIMEZONE_CHECK = os.getenv('RUN_TIMEZONE_CHECK', '1') == '1'
+RUN_TIMEZONE_CHECK = os.getenv('RUN_TIMEZONE_CHECK', '1') == '0'
 
-TZ_INFO = os.getenv("TZ", "Europe/Berlin")
+TZ_INFO = os.getenv("TZ", "America/Los_Angeles")
 tz = ZoneInfo(TZ_INFO)
 
 
 def get_db_connection():
     return psycopg2.connect(
         host=os.getenv("POSTGRES_HOST", "postgres"),
-        database=os.getenv("POSTGRES_DB", "course_assistant"),
-        user=os.getenv("POSTGRES_USER", "your_username"),
-        password=os.getenv("POSTGRES_PASSWORD", "your_password"),
+        database=os.getenv("POSTGRES_DB", "postgres"),
+        user=os.getenv("POSTGRES_USER", "postgres"),
+        password=os.getenv("POSTGRES_PASSWORD", "postgres"),
+        port=os.getenv("POSTGRES_PORT", "5432")
     )
 
+def get_db_init_connection():
+    return psycopg2.connect(
+        host=os.getenv("POSTGRES_HOST", "localhost"),
+        database=os.getenv("POSTGRES_DB", "tek_buddy_db"),
+        user=os.getenv("POSTGRES_USER", "postgres"),
+        password=os.getenv("POSTGRES_PASSWORD", "postgres"),
+        port=os.getenv("POSTGRES_PORT", "5433")
+    )
 
 def init_db():
-    conn = get_db_connection()
+    conn = get_db_init_connection()
     try:
         with conn.cursor() as cur:
             cur.execute("DROP TABLE IF EXISTS feedback")
@@ -54,6 +65,7 @@ def init_db():
                 )
             """)
         conn.commit()
+        print('Success')
     finally:
         conn.close()
 
@@ -73,6 +85,7 @@ def save_conversation(conversation_id, question, answer_data, timestamp=None):
                 eval_prompt_tokens, eval_completion_tokens, eval_total_tokens, openai_cost, timestamp)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """,
+                
                 (
                     conversation_id,
                     question,
@@ -87,13 +100,31 @@ def save_conversation(conversation_id, question, answer_data, timestamp=None):
                     answer_data["eval_prompt_tokens"],
                     answer_data["eval_completion_tokens"],
                     answer_data["eval_total_tokens"],
-                    answer_data["openai_cost"],
+                    answer_data["openai_cost"],                    
                     timestamp
+                    
                 ),
             )
         conn.commit()
+        print('save_conversation, success')
+
     finally:
         conn.close()
+
+"""
+                    '', # answer_data["model_used"],
+                    0, # answer_data["response_time"],
+                    '', # answer_data["relevance"],
+                    '', # answer_data["relevance_explanation"],
+                    0, # answer_data["prompt_tokens"],
+                    0, # answer_data["completion_tokens"],
+                    0, # answer_data["total_tokens"],
+                    0, # answer_data["eval_prompt_tokens"],
+                    0, # answer_data["eval_completion_tokens"],
+                    0,# answer_data["eval_total_tokens"],
+                    0,# answer_data["openai_cost"],
+"""
+
 
 
 def save_feedback(conversation_id, feedback, timestamp=None):
