@@ -122,6 +122,21 @@ The code for the application is in the [`tek_buddy`](tek_buddy) folder:
 ## Notebooks
 - directory notebooks contains various notebooks for expereiments  
 
+## env file
+OPENAI_API_KEY=xxxx
+DATA_PATH=..\data\data_cleaned.csv
+
+APP_PORT=5000
+
+TZ=America/Los_Angeles
+
+# PostgreSQL Configuration
+POSTGRES_HOST=postgres
+POSTGRES_DB=tek_buddy_db
+POSTGRES_USER=your user name
+POSTGRES_PASSWORD= your password
+POSTGRES_PORT=5433
+
 **Ingestion pipeline**
 
 Semi-automated ingestion of the dataset into the knowledge base
