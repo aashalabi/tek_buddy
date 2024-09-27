@@ -8,6 +8,7 @@ Welcome to TechBuddy AI, a cutting-edge Retrieval-Augmented Generation (RAG) Lar
 **Project Overview**
 
 **use cases**
+
 TechBuddy AI: Smart Appliance Repair Assistant
 TechBuddy AI is a RAG LLM app for appliance repair pros. It offers:
 
