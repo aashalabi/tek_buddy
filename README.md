@@ -1,4 +1,4 @@
-![tek_buddy_image5.png](README_files/db74f137-2f35-4df7-a398-21e8776f877d.png)
+![tek_buddy_image6.png](README_files/cf1886d9-5d4a-4da5-83c4-f4773c27ea6f.png)
 
 # Tech Buddy AI
 
