@@ -1,14 +1,14 @@
 ![tek_buddy_image5.png](README_files/db74f137-2f35-4df7-a398-21e8776f877d.png)
 
-# <b>Tech Buddy AI
+# Tech Buddy AI
 
 ## Problem description
 
 #### Introducing Tech Buddy AI: Your Intelligent Appliance Repair Assistant
+
 Welcome to TechBuddy AI, a cutting-edge Retrieval-Augmented Generation (RAG) Large Language Model (LLM) application designed specifically for appliance repair professionals. TechBuddy AI combines the power of advanced natural language processing with a vast database of technical knowledge to provide instant, accurate, and context-aware assistance for all your repair challenges. 
 
 Whether you're troubleshooting a complex refrigerator compressor issue or need step-by-step guidance for replacing a dishwasher control board, TechBuddy AI is your go-to digital partner. By leveraging the latest in AI technology and continually updated repair manuals, service bulletins, and expert knowledge, this innovative tool empowers technicians to work more efficiently, reduce diagnostic time, and increase first-time fix rates. Say goodbye to time-consuming manual searches and hello to smarter, faster repairs with TechBuddy AI – your intelligent assistant in the world of appliance maintenance and repair.
-
 
 # Project Overview
 
