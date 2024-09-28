@@ -1,6 +1,13 @@
-![tek_buddy_image6.png](README_files/cf1886d9-5d4a-4da5-83c4-f4773c27ea6f.png)
+<style>
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+</style>
 
 # Tech Buddy AI
+
+![tek_buddy_image6.png](README_files/cf1886d9-5d4a-4da5-83c4-f4773c27ea6f.png)
 
 ## Problem Description
 
