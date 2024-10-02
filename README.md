@@ -54,14 +54,6 @@ API: Flask
 Containerization: Docker
 ```
 
-## Install Requirements
-```
-- Install Docker deskop (windows)
-- Python above 3.9 version will work
-- pip install -r requirements.txt
-- create .env file and add various keys such as openai key
-```
-
 ## RAG flow, RAG evaluation and retreival
 ```
 The following results without boosting the index:
@@ -69,8 +61,6 @@ The following results without boosting the index:
 
 With boosting:
 {'hit_rate': 0.8490888382687927, 'mrr': 0.7397254763712625}
-
-I used Chat gpt 3.5 turbo, may using better LLm could imporove the hit rate and mmr
 
 Best boosting paramters:
 boost = {
@@ -91,24 +81,24 @@ The LLM explanation  considers one part as partial becuase query asks for parts.
 
 Here is sample question and explanation:
 - Question: 'What parts are required for cleaning the condenser fan blade on the MFI2269FRZ?'
-- Explanation: 'The generated answer only mentions a soft cloth as the part required for cleaning the condenser fan blade, which is not accurate. The question asks for all the parts required, not just one.'
+- Explanation: 'The generated answer only mentions a soft cloth as the part required for cleaning the condenser fan blade, which is not accurate.
+  The question asks for all the parts required, not just one.'
 
 
-For `gpt-4o-mini`, in a sample with 200 records, the results are:
+For `gpt-4o-mini`, and changing the prompt in 200 sample records:
 
-- RELEVANT           0.428815
-- PARTLY_RELEVANT    0.378132
-- NON_RELEVANT       0.192483
-- Non_Relevant       0.000569
+- RELEVANT           0.825
+- PARTLY_RELEVANT    0.110
+- NON_RELEVANT       0.065
 ```
 
 ## Interface
 ```
-Using Flask framework to serve the api and Minsearch  from https://github.com/DataTalksClub/llm-zoomcamp/blob/main/01-intro/minsearch.py
+Using Flask framework to serve the api
 
-cmd: python app.py
+
 ```
-### Question API
+### Testing Question API
 ```
 URL=http://localhost:5000
 QUESTION="What parts are required for cleaning the condenser fan blade on the MFI2269FRZ?"
@@ -128,7 +118,7 @@ Result:
   "question": "What parts are required for cleaning the condenser fan blade on the MFI2269FRZ?"
 }
 ```
-### Feedback API
+### Testing Feedback API
 ```
 $ ID="b50da356-c62d-4991-b68d-dc942f253fa3"
 $ FEEDBACK_DATA='{
@@ -159,7 +149,7 @@ The code for the application is in the [`tek_buddy`](tek_buddy) folder:
 
 ## env file
 ```
-OPENAI_API_KEY=xxxx
+OPENAI_API_KEY=
 DATA_PATH=..\data\data_cleaned.csv
 
 APP_PORT=5000
@@ -173,14 +163,45 @@ POSTGRES_USER=your user name
 POSTGRES_PASSWORD= your password
 POSTGRES_PORT=5433
 
-## Ingestion pipeline
-
+note: POSTGRES default user/password is postgres
+```
+## Ingestion Pipeline
+```
 Semi-automated ingestion of the dataset into the knowledge base
 ```
-## Running the app
+
+
+# Monitoring
+
+# Containerization
 ```
-cmd: python app.py
+The backend is implemented as docker container per Docker and docker-compose files
 ```
+
+# Steps to reproduce
+
+```
+The steps below assumes Docker desktop and Conda variant installed in windows
+
+In windows cmd terminal:
+
+1- clone the repo
+    git clone https://github.com/aashalabi/tek_buddy.git
+
+2- Create python environment (windows)
+    conda create --name my_env python=3.10
+    conda activate my_env
+
+3-  Install requirements libs    
+    cd project folder
+    pip install -r requirements.txt
+
+4-  Create .env file as described above
+    copy into .env and add your required credentials
+
+5-  Run the app backend
+    Docker compose up
+```    
 
 
 ```python

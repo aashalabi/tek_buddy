@@ -104,6 +104,10 @@ def evaluate_relevance(question, answer):
     Based on the relevance of the generated answer, you will classify it
     as "NON_RELEVANT", "PARTLY_RELEVANT", or "RELEVANT".
 
+    Please classify valid company names as "RELEVANT" answer.
+    Please consider part or parts required as "RELEVANT".
+    Please consider answer "RELEVANT" as long answer doesn't conflict with technical facts about the machine.
+
     Here is the data for evaluation:
 
     Question: {question}
