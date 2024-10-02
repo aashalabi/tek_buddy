@@ -13,6 +13,8 @@ tz = ZoneInfo(TZ_INFO)
 
 
 def get_db_connection():
+    print('get_db_connection:db')
+    print(os.getenv("POSTGRES_DB"))
     return psycopg2.connect(
         host=os.getenv("POSTGRES_HOST", "postgres"),
         database=os.getenv("POSTGRES_DB", "postgres"),

@@ -41,14 +41,15 @@ The data set contains various elements about appliances including:
 - Frquency
 - Spare parts required for th job
 
-The data set is generated using Claude and contains 1756 records
+The data contains 1756 records
+The data can be found here:  data/data_cleaned.csv
+
 ```
 
 ## Technologies
 ```
 Knowledge base: Elasticsearch
 LLM: openai
-UI: streamlit
 Monitoring: Grafana
 API: Flask
 Containerization: Docker
@@ -96,6 +97,8 @@ For `gpt-4o-mini`, and changing the prompt in 200 sample records:
 ```
 Using Flask framework to serve the api
 
+http://localhost:5000/question
+http://localhost:5000/feedback
 
 ```
 ### Testing Question API
@@ -173,9 +176,22 @@ Semi-automated ingestion of the dataset into the knowledge base
 
 # Monitoring
 
+```
+Monitoring the application using Grafana is accessible at localhost:3000
+
+. Login: "admin"
+. Password: "admin"
+
+Grafana starts automatically with docker-compose up
+```
+
+# Dashboards
+
+![Grafana_Screenshot.png](README_files/5a23659f-d637-40ea-ad86-f728679075f6.png)
+
 # Containerization
 ```
-The backend is implemented as docker container per Docker and docker-compose files
+The backend is implemented as docker container per Docker and docker-compose file
 ```
 
 # Steps to reproduce
@@ -200,7 +216,10 @@ In windows cmd terminal:
     copy into .env and add your required credentials
 
 5-  Run the app backend
-    Docker compose up
+    docker-compose up
+
+    or force rebuild
+    docker-compose up --build
 ```    
 
 
